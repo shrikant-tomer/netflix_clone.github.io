@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html , body {
+    height: auto;
+    width: 100% 100%;
+}
+
+ 
+  
+
+.header-bg {
+    background-image: linear-gradient(to top, rgba(0,0,0, 0.6)100%, rgba(0,0,0, 0.7)70%,rgba(0,0,0,0.8)90%),url("header.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+/* .navbar {
+    height: 86px;
+    width: 100% 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 200.863px;
+    margin-right: 200.875px;
+
+
+} */
+
+.nav-logo img {
+    
+    
+}
+
+.nav-lang {
+    
+    width: auto;
+    display: flex;
+    color: white;
+    height: 20px;
+    width: 54.400px;
+    margin-left: 950px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: color red;
+    
+}
+.nav-lang:active {
+    border: 1px solid white;
+}
+.btn-group button {
+    background-color: transparent;
+    color: white;
+}
+.btn-group i {
+    height: 16px;
+    width: 16px;
+}
+.nav-lang select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: 700;
+
+}
+
+.nav-signin button {
+    background-color: #e50914;
+    color: white;
+    height: 2rem;
+    width: 4.81rem;
+    border-radius: 4px;
+    border: none;
+    font-size: medium;
+    font-weight: 550;
+    transition: 0.15s;
+
+}
+.nav-signin button:hover {
+    opacity: 0.8;
+}
+
+/** Welcome Bar **/
+
+.welcome {
+    height: 234px;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 0px 50px 0px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+
+.welcome form {
+    text-align: center;
+    
+}
+.welcome input {
+    height: 50px;
+    width: 344px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 1px solid white;
+    padding: 18px 16px 10px 16px;
+    font-size: medium;
+    border-radius: 4px;
+    
+}
+
+.welcome button {
+    height: 50px;
+    width: 154px;
+    border: none;
+    padding: 18px 20px 18px 18px;
+    background-color: #e50914;
+    color: white;
+    margin-left: 6px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.15s;
+}
+.welcome button:hover {
+    opacity: 0.7;
+}
+.welcome h3 {
+    margin-bottom: 20px;
+    font-size: large;
+    
+}
+.welcome p {
+    margin-bottom: 27px;
+    font-size: x-large;
+    font-weight: 500;
+}
+.welcome h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/** Features **/
+
+.feature {
+    height: 563;
+    width: 100% 100%;
+    padding: 50px 0px 50px 0px;
+    border-top: 8px solid rgb(41, 40, 40);
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+.feature h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.feature p {
+    color: white;
+    font-size: 25px;
+}
+.picture {
+    border: none;
+    position: relative;
+    top: 35px;
+}
+
+/** Question part **/
+
+.responsive-div {
+    @media (max-width: 1300px) {
+            .responsive-div {
+                width: 1000px; /* Adjust the height for smaller screens */
+            }
+        }
+    
+}
+
+.panel {
+    border-top: 8px solid rgb(41, 40, 40);
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 900px;
+    padding-top:72px ;
+    padding-bottom: 72px;
+}
+.panel h1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.modification {
+    height: 84px;
+    width: 80vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 45, 45);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.modification h3 {
+    margin-left: 20px;
+
+}
+.modification button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.panel-signin input {
+    height: 50px;
+    width: 344px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 1px solid white;
+    padding: 18px 16px 10px 16px;
+    font-size: medium;
+    border-radius: 4px;
+
+}
+.panel-signin{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.panel-signin h3 {
+    font-size: large;
+    margin-bottom: 20px;
+}
+.panel-signin button {
+    height: 50px;
+    width: 154px;
+    border: none;
+    padding: 18px 20px 18px 18px;
+    background-color: #e50914;
+    color: white;
+    margin-left: 6px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.15s;
+}
+.panel-signin button:hover {
+    opacity: 0.7;
+}
+
+
+/* for footer */
+.foot-main {
+    border-top: 8px solid rgb(41, 40, 40);
+    height: 470px;
+    background-color: black;
+    
+    
+    
+    
+}
+
+
+.foot-main a {
+    color: white;
+    
+    
+    
+}
+.foot1 {
+    margin-left: 150px;
+    margin-right: 130px;
+    font-size: 15px;
+    
+    
+}
+.btn-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foot2 {
+    
+    font-size: 15px;
+    margin-right: 130px;
+    
+}
+
